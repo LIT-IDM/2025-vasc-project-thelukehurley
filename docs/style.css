@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  background: #d62828; /* Christmas red */
+  color: white;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px #960000;
+}
+
+p, li {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+ul {
+  text-align: left;
+  display: inline-block;
+}
+
+.qr {
+  margin: 20px 0;
+}
+
+.footer {
+  margin-top: 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
