@@ -1,23 +1,23 @@
 Using pre-set license
-Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f2 (7670c08855a9) revision 7762112'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) 64bit Education' Language: 'en' Physical Memory: 32276 MB
+Built from '2022.3/staging' branch; Version is '2022.3.62f1 (4af31df58517) revision 4911901'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 32456 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.62f2\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2022.3.62f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/JohnJennings/_Projects/UnityProjects/AR-Xmas
+C:/Users/K00298505/Documents/2025-vasc-project-thelukehurley/AR-Xmas
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60129
-Successfully changed project path to: C:/JohnJennings/_Projects/UnityProjects/AR-Xmas
-C:/JohnJennings/_Projects/UnityProjects/AR-Xmas
+51545
+Successfully changed project path to: C:/Users/K00298505/Documents/2025-vasc-project-thelukehurley/AR-Xmas
+C:/Users/K00298505/Documents/2025-vasc-project-thelukehurley/AR-Xmas
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,84 +49,241 @@ C:/JohnJennings/_Projects/UnityProjects/AR-Xmas
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [48020]  Target information:
+Player connection [76048]  Target information:
 
-Player connection [48020]  * "[IP] 172.28.208.1 [Port] 0 [Flags] 2 [Guid] 3253184434 [EditorId] 3253184434 [Version] 1048832 [Id] WindowsEditor(7,GVVGW44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [76048]  * "[IP] 172.19.33.151 [Port] 0 [Flags] 2 [Guid] 3308259953 [EditorId] 3308259953 [Version] 1048832 [Id] WindowsEditor(7,4C01-22B) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [48020]  * "[IP] 172.19.224.1 [Port] 0 [Flags] 2 [Guid] 3253184434 [EditorId] 3253184434 [Version] 1048832 [Id] WindowsEditor(7,GVVGW44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [48020]  * "[IP] 192.168.5.72 [Port] 0 [Flags] 2 [Guid] 3253184434 [EditorId] 3253184434 [Version] 1048832 [Id] WindowsEditor(7,GVVGW44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [48020] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [48020] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [76048] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [76048] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
-[PhysX] Initialized MultithreadedTaskDispatcher with 22 workers.
-Refreshing native plugins compatible for Editor in 6591.88 ms, found 10 plugins.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Refreshing native plugins compatible for Editor in 11.67 ms, found 10 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2022.3.62f2 (7670c08855a9)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/JohnJennings/_Projects/UnityProjects/AR-Xmas/Assets
+Initialize engine version: 2022.3.62f1 (4af31df58517)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/K00298505/Documents/2025-vasc-project-thelukehurley/AR-Xmas/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4090 Laptop GPU (ID=0x2757)
+    Renderer: NVIDIA GeForce RTX 3050 OEM (ID=0x2508)
     Vendor:   NVIDIA
-    VRAM:     16050 MB
-    Driver:   32.0.15.6590
+    VRAM:     8042 MB
+    Driver:   32.0.15.5612
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56620
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f2/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 1.132255 seconds.
-- Loaded All Assemblies, in 15.390 seconds
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.007200 seconds.
+- Loaded All Assemblies, in  0.224 seconds
 Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 469 ms
+Unauthorized device detected, Id: RZCX41S9AYF, please add debug authorization and reconnect.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:LogFormat (UnityEngine.LogType,string,object[])
+UnityEngine.Debug:LogFormat (string,object[])
+UnityEditor.Android.AndroidDeploymentTargetsExtension:GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext,UnityEditor.ProgressHandler) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/DeploymentTargets/AndroidDeploymentTargetsExtension.cs:409)
+UnityEditor.Android.TargetScanWorker:ScanSync () (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/TargetScanWorker.cs:164)
+UnityEditor.Android.TargetExtension:OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[]) (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:102)
+UnityEditor.Android.TargetExtension:OnLoad () (at /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:63)
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules ()
+
+(Filename: /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/DeploymentTargets/AndroidDeploymentTargetsExtension.cs Line: 409)
+
+Android Extension - Scanning For ADB Devices 202 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.238 seconds
-Domain Reload Profiling: 16626ms
-	BeginReloadAssembly (10077ms)
+- Finished resetting the current domain, in  0.397 seconds
+Domain Reload Profiling: 621ms
+	BeginReloadAssembly (70ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (886ms)
-	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (1199ms)
-	LoadAllAssembliesAndSetupDomain (3220ms)
-		LoadAssemblies (10157ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (19ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (91ms)
+		LoadAssemblies (70ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (3117ms)
-			TypeCache.Refresh (3115ms)
-				TypeCache.ScanAssembly (2608ms)
+		AnalyzeDomain (88ms)
+			TypeCache.Refresh (87ms)
+				TypeCache.ScanAssembly (78ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (1238ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (397ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1202ms)
+		SetupLoadedEditorAssemblies (371ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (1010ms)
+			InitializePlatformSupportModulesInManaged (268ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (124ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (71ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.6.5/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/AR Starter Assets/ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Editor/StarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/AR Starter Assets/Editor/ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.6.5/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
 ========================================================================
 Worker process is ready to serve import requests
+Caller must complete domain reload
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.6.5/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/AR Starter Assets/ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Editor/StarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/AR Starter Assets/Editor/ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.6.5/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.306 seconds
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.6.5/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/AR Starter Assets/ARStarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/Editor/StarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/Starter Assets/StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.StarterAssets' already exists (Assets/Samples/XR Interaction Toolkit/2.6.5/Starter Assets/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/3.1.2/AR Starter Assets/Editor/ARStarterAssets.Editor.asmdef)
+Assembly with name 'Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor' already exists (Assets/Samples/XR Interaction Toolkit/2.6.5/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef)
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.264 seconds
+Domain Reload Profiling: 569ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (153ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (60ms)
+			TypeCache.Refresh (58ms)
+				TypeCache.ScanAssembly (49ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (265ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (179ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (11ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/URP/Synthetic' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Standard Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/URP/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Simulation/Synthetic Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Simulation/Room X-Ray' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 7.67 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5168 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 42 unused Assets / (3.0 MB). Loaded Objects now: 5607.
+Memory consumption went from 162.9 MB to 159.9 MB.
+Total: 2.923900 ms (FindLiveObjects: 0.277700 ms CreateObjectMapping: 0.115700 ms MarkObjects: 1.747300 ms  DeleteObjects: 0.782400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3888869.875822 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.5/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef
+  artifactKey: Guid(8faaf06e70da691408e823a4ba08812b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.5/AR Starter Assets/Editor/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.Editor.asmdef using Guid(8faaf06e70da691408e823a4ba08812b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '07a2e062c4f3206a9457372bf7b51e72') in 0.001644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.545407 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.6.5/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef
+  artifactKey: Guid(1aaa375cb6d7be143973971fbf7a03de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.6.5/AR Starter Assets/Unity.XR.Interaction.Toolkit.Samples.ARStarterAssets.asmdef using Guid(1aaa375cb6d7be143973971fbf7a03de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '3f516ca07041e451c0573e2e3481ff3a') in 0.000387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

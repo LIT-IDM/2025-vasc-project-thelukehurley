@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Christmas.unity
+    guid: fb82e84c7b1eb454aa4922600e00caa1
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: a02dd9a2318d44a44b0d7bf604b998d1, type: 2}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 7d9f4790026478548b0ee5d79e547629, type: 2}
